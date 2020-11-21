@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Wings.cpp
+  texture.cpp
+  Smoke.cpp
+  protocol.cpp
+  points.cpp
+  Monster.cpp
+  MiniMap.cpp
+  message.cpp
+  MemScript.cpp
+  MathLib.cpp
+  Map.cpp
+  main.cpp
+  ItemManager.cpp
+  item.cpp
+  HealthBar.cpp
+  hacker.cpp
+  Glow.cpp
+  functions.cpp
+  Fruits.cpp
+  Font.cpp
+  Generating Code...
+  Compiling...
+  Fix.cpp
+c:\users\pedro\desktop\[ source ]\main\fix.cpp(294): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  encrypt.cpp
+  EffectManager.cpp
+c:\users\pedro\desktop\[ source ]\main\effectmanager.cpp(87): warning C4101: 'Bone' : unreferenced local variable
+  definitions.cpp
+  camera.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\Main.dll) does not match the Linker's OutputFile property value (C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\DTserver.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Main) does not match the Linker's OutputFile property value (DTserver). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\Main.lib and object C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\Main.exp
+Main.exp : warning LNK4070: /OUT:main.dll directive in .EXP differs from output filename 'C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\DTserver.dll'; ignoring directive
+  DLLstart.vcxproj -> C:\Users\Pedro\Desktop\[ Source ]\Main\Debug\Main\Main.dll

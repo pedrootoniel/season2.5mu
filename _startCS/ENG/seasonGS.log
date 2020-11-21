@@ -1,0 +1,42 @@
+﻿  wings.cpp
+  Version.cpp
+  users.cpp
+  Silver.cpp
+  shop.cpp
+  scroll.cpp
+  reset.cpp
+  protocolo.cpp
+  protect.cpp
+  pontos_maximo.cpp
+  packets.cpp
+  ObjAttack.cpp
+  npctalk.cpp
+  move.cpp
+  mensagem.cpp
+  map.cpp
+  jewels.cpp
+  iniciar_csql.cpp
+  gsclient.cpp
+  Golden.cpp
+  Generating Code...
+  Compiling...
+  experiencia.cpp
+  dsprotocol.cpp
+  drops.cpp
+  dllinit.cpp
+  display.cpp
+  devilsquare.cpp
+  definicoes.cpp
+  csql.cpp
+  crecord.cpp
+  correcao_base.cpp
+  comandos.cpp
+  classe_init.cpp
+  chaoscastle.cpp
+  calcharacter.cpp
+  Bronze.cpp
+  box.cpp
+  bloodcastle.cpp
+  Generating Code...
+     Creating library .\compilada\_start.lib and object .\compilada\_start.exp
+  seasonGS.vcxproj -> D:\thoung\1.02c\_startCS\.\compilada\_start.dll

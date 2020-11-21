@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin">
+      <UniqueIdentifier>{6cb8fdaf-59c6-450b-9888-38e93d97a5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter">
+      <UniqueIdentifier>{abd99c4a-4c9c-44a1-9605-6da1514b8f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\CalCharacter">
+      <UniqueIdentifier>{0756faa0-485c-476c-b993-ff295cb5b00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\ObjAttack">
+      <UniqueIdentifier>{75d49636-63cf-4a79-bd7d-39a54076fd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface">
+      <UniqueIdentifier>{0a207330-963f-4a7e-955a-fe19c5860cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Display">
+      <UniqueIdentifier>{a303b790-9f24-4463-9da6-1ffdb5c8d65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Version">
+      <UniqueIdentifier>{bae2367f-1c51-40b8-b8de-099493777436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk">
+      <UniqueIdentifier>{22a412aa-0103-4d58-8b51-e168ef48cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk\movejewels">
+      <UniqueIdentifier>{3af87e34-6ab0-4cb9-a49c-61fa81589b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: VipSystem">
+      <UniqueIdentifier>{754d0fa9-bd8a-4f4c-9dde-501da81ae06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas">
+      <UniqueIdentifier>{b352dd98-25ab-4a86-bb6f-a971510ac554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\objremade">
+      <UniqueIdentifier>{bef8e57f-ad1f-43f1-b34b-3c3df5c8432c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\skill">
+      <UniqueIdentifier>{f4fb62db-e12f-4016-9fdb-f4ef47c367f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Wings">
+      <UniqueIdentifier>{0be0d34b-764e-41d1-af08-de468b8bfa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\shop">
+      <UniqueIdentifier>{31867135-bac4-436f-adc4-f0f58b32ba04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\drops">
+      <UniqueIdentifier>{b3f556e0-a600-4175-b0dd-d35cc2871919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\experiencia">
+      <UniqueIdentifier>{81a61624-f76d-4224-92d9-5b18ed82624d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\pontos_maximo">
+      <UniqueIdentifier>{598328fe-01b6-4e2f-bfc0-4832180da4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos">
+      <UniqueIdentifier>{5ca8a50f-d46f-454e-abd4-50d09bc379de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\reset">
+      <UniqueIdentifier>{759278f7-7cc1-4a6c-8b18-5e7f4af7b318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\comandos">
+      <UniqueIdentifier>{17ffe09e-4c4a-433e-ada2-23a1d3e4ed41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos">
+      <UniqueIdentifier>{278e0b2f-33f2-47f3-9b1f-64dc1c0272cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\chaoscastle">
+      <UniqueIdentifier>{3e778833-22b4-4d06-8c09-c184bb9676c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\bloodcastle">
+      <UniqueIdentifier>{9c8d2a80-2d47-41c1-97be-d2b3729ab58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\devilsquare">
+      <UniqueIdentifier>{a4e6e0d0-159f-4649-b155-7ff7ebc267de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs">
+      <UniqueIdentifier>{9068533d-ff22-41a9-9f44-0f76c062fc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Config">
+      <UniqueIdentifier>{61d7edc3-6ef4-48aa-97dd-a4e166169e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Init">
+      <UniqueIdentifier>{6c59657e-8d3f-4221-8e4e-ae7139f83166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\mensagem">
+      <UniqueIdentifier>{83462a6f-9610-44db-a2c1-2936a300f031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\classe_init">
+      <UniqueIdentifier>{3ba620a6-bd90-4ae9-87bf-09a68d139559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo">
+      <UniqueIdentifier>{f625aa32-704b-413b-806f-28ccae416b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\gsclient">
+      <UniqueIdentifier>{c1390e56-65c1-46e0-baf5-30763d09e931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\dsprotocol">
+      <UniqueIdentifier>{68fd60d2-5181-4cff-82e9-1bf62ba648f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\protocolo">
+      <UniqueIdentifier>{a1ad07d8-0f08-43c6-a7a5-5f12d8f7f29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils">
+      <UniqueIdentifier>{23f127be-fafb-4660-bbf4-4648e670aed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\definicoes">
+      <UniqueIdentifier>{fd4aad08-9e54-4d99-b7ec-b07de62435ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\conexao">
+      <UniqueIdentifier>{2ea43626-619d-4da3-ae55-e16e377d2260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\conexao\crecord">
+      <UniqueIdentifier>{8871a3ab-6529-4cce-b9b5-dc9cb7837f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\conexao\iniciar_csql">
+      <UniqueIdentifier>{a7822a1b-4387-4906-b49b-acf5944373c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\conexao\csql">
+      <UniqueIdentifier>{ae3ea997-095c-45f2-9004-85543784c369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\packets">
+      <UniqueIdentifier>{48419331-45a9-4472-ba3b-0dd1bb94b0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\protect">
+      <UniqueIdentifier>{50ca493e-dec8-43e3-8147-f778b0aff3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\tokenizer">
+      <UniqueIdentifier>{0db0b698-8fb6-4272-9f91-38b38b4bf77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\correcao_base">
+      <UniqueIdentifier>{f074d3a5-0278-49de-ac7d-74c776119c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\users">
+      <UniqueIdentifier>{8cd2d728-09f3-4498-a741-59961d57858b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Utils\Functions">
+      <UniqueIdentifier>{12c38d40-68c0-4655-8820-36616566767a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: DllInit">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: DllInit\stdafx">
+      <UniqueIdentifier>{272c0a25-566d-4254-8f3d-799b6000658f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\movecustom">
+      <UniqueIdentifier>{9dd04ae3-f106-4e91-86aa-357ee3dd36fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\map">
+      <UniqueIdentifier>{e102b158-17a0-4750-b077-ff792d87fc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\offsystem">
+      <UniqueIdentifier>{9212b52c-d0f0-4523-b3f9-565bf58ea9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\dropevent">
+      <UniqueIdentifier>{60d0f3e3-7067-4502-a2fb-018dda9d9a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\define">
+      <UniqueIdentifier>{6e26ba4c-c00a-4ae6-b175-8422c7db7fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\tempoon">
+      <UniqueIdentifier>{71b6c96f-0f44-4d07-ba71-4bea7d4e9ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items">
+      <UniqueIdentifier>{3c22ed5a-e187-4c71-bc4b-1cd19e8dc89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box">
+      <UniqueIdentifier>{fd6cfa2a-4f90-4cf1-9d00-466d7dc05fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\CGItemDropRequest">
+      <UniqueIdentifier>{c1ecb774-e62a-4ccd-8e18-9b6fd90089f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Bronze">
+      <UniqueIdentifier>{f7ba83c5-747c-44fc-a54f-06b29a972558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Silver">
+      <UniqueIdentifier>{efcbfa15-d681-4b09-9ccd-6b7aa07fb382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Golden">
+      <UniqueIdentifier>{8aee88f3-aa1a-42a8-91e9-83089ea6666b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\jewels">
+      <UniqueIdentifier>{d8f8b18e-82ee-4104-b003-e7208b95c567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Scrolls">
+      <UniqueIdentifier>{866e51cd-572f-41ec-8e87-1725b6640d68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllinit.cpp">
+      <Filter>[ 1.02 ] :: DllInit</Filter>
+    </ClCompile>
+    <ClCompile Include="classe_init.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\classe_init</Filter>
+    </ClCompile>
+    <ClCompile Include="correcao_base.cpp">
+      <Filter>[ 1.02 ] :: Utils\correcao_base</Filter>
+    </ClCompile>
+    <ClCompile Include="users.cpp">
+      <Filter>[ 1.02 ] :: Utils\users</Filter>
+    </ClCompile>
+    <ClCompile Include="definicoes.cpp">
+      <Filter>[ 1.02 ] :: Utils\definicoes</Filter>
+    </ClCompile>
+    <ClCompile Include="csql.cpp">
+      <Filter>[ 1.02 ] :: Utils\conexao\csql</Filter>
+    </ClCompile>
+    <ClCompile Include="crecord.cpp">
+      <Filter>[ 1.02 ] :: Utils\conexao\crecord</Filter>
+    </ClCompile>
+    <ClCompile Include="iniciar_csql.cpp">
+      <Filter>[ 1.02 ] :: Utils\conexao\iniciar_csql</Filter>
+    </ClCompile>
+    <ClCompile Include="pontos_maximo.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\pontos_maximo</Filter>
+    </ClCompile>
+    <ClCompile Include="experiencia.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\experiencia</Filter>
+    </ClCompile>
+    <ClCompile Include="bloodcastle.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\bloodcastle</Filter>
+    </ClCompile>
+    <ClCompile Include="chaoscastle.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\chaoscastle</Filter>
+    </ClCompile>
+    <ClCompile Include="devilsquare.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\devilsquare</Filter>
+    </ClCompile>
+    <ClCompile Include="drops.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\drops</Filter>
+    </ClCompile>
+    <ClCompile Include="reset.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\reset</Filter>
+    </ClCompile>
+    <ClCompile Include="mensagem.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\mensagem</Filter>
+    </ClCompile>
+    <ClCompile Include="comandos.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="npctalk.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk</Filter>
+    </ClCompile>
+    <ClCompile Include="gsclient.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\gsclient</Filter>
+    </ClCompile>
+    <ClCompile Include="dsprotocol.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\dsprotocol</Filter>
+    </ClCompile>
+    <ClCompile Include="movejewels.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk\movejewels</Filter>
+    </ClCompile>
+    <ClCompile Include="GCMagicAttackNumberSend.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicInf.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="protect.cpp">
+      <Filter>[ 1.02 ] :: Utils\protect</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\movecustom</Filter>
+    </ClCompile>
+    <ClCompile Include="calcharacter.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\CalCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="protocolo.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\protocolo</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttack.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\ObjAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Wings.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Wings</Filter>
+    </ClCompile>
+    <ClCompile Include="vip.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: VipSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="objremade.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\objremade</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>[ 1.02 ] :: Utils\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\map</Filter>
+    </ClCompile>
+    <ClCompile Include="offsystem.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\offsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="dropevent.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\dropevent</Filter>
+    </ClCompile>
+    <ClCompile Include="tempoon.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\tempoon</Filter>
+    </ClCompile>
+    <ClCompile Include="jewels.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\jewels</Filter>
+    </ClCompile>
+    <ClCompile Include="CGItemDropRequest.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\CGItemDropRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="packets.cpp">
+      <Filter>[ 1.02 ] :: Utils\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Bronze.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Golden.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Golden</Filter>
+    </ClCompile>
+    <ClCompile Include="Silver.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll.cpp">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Scrolls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>[ 1.02 ] :: DllInit\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="classe_init.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\classe_init</Filter>
+    </ClInclude>
+    <ClInclude Include="correcao_base.h">
+      <Filter>[ 1.02 ] :: Utils\correcao_base</Filter>
+    </ClInclude>
+    <ClInclude Include="users.h">
+      <Filter>[ 1.02 ] :: Utils\users</Filter>
+    </ClInclude>
+    <ClInclude Include="definicoes.h">
+      <Filter>[ 1.02 ] :: Utils\definicoes</Filter>
+    </ClInclude>
+    <ClInclude Include="crecord.h">
+      <Filter>[ 1.02 ] :: Utils\conexao\crecord</Filter>
+    </ClInclude>
+    <ClInclude Include="iniciar_csql.h">
+      <Filter>[ 1.02 ] :: Utils\conexao\iniciar_csql</Filter>
+    </ClInclude>
+    <ClInclude Include="pontos_maximo.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\pontos_maximo</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>[ 1.02 ] :: Utils\tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="experiencia.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\experiencia</Filter>
+    </ClInclude>
+    <ClInclude Include="bloodcastle.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\bloodcastle</Filter>
+    </ClInclude>
+    <ClInclude Include="chaoscastle.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\chaoscastle</Filter>
+    </ClInclude>
+    <ClInclude Include="devilsquare.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\devilsquare</Filter>
+    </ClInclude>
+    <ClInclude Include="drops.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\drops</Filter>
+    </ClInclude>
+    <ClInclude Include="npctalk.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk</Filter>
+    </ClInclude>
+    <ClInclude Include="reset.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\reset</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>[ 1.02 ] :: Utils\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="mensagem.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\mensagem</Filter>
+    </ClInclude>
+    <ClInclude Include="comandos.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\comandos</Filter>
+    </ClInclude>
+    <ClInclude Include="csql.h">
+      <Filter>[ 1.02 ] :: Utils\conexao\csql</Filter>
+    </ClInclude>
+    <ClInclude Include="gsclient.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\gsclient</Filter>
+    </ClInclude>
+    <ClInclude Include="dsprotocol.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\dsprotocol</Filter>
+    </ClInclude>
+    <ClInclude Include="movejewels.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: NpcTalk\movejewels</Filter>
+    </ClInclude>
+    <ClInclude Include="GCMagicAttackNumberSend.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicInf.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.h">
+      <Filter>[ 1.02 ] :: Utils\protect</Filter>
+    </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\movecustom</Filter>
+    </ClInclude>
+    <ClInclude Include="calcharacter.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\CalCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="protocolo.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\protocolo</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttack.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: CalCharacter\ObjAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Interface\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Wings.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Wings</Filter>
+    </ClInclude>
+    <ClInclude Include="vip.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: VipSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="objremade.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\objremade</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Configs\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>[ 1.02 ] :: Utils\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\map</Filter>
+    </ClInclude>
+    <ClInclude Include="offsystem.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Comandos\offsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="dropevent.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Eventos\dropevent</Filter>
+    </ClInclude>
+    <ClInclude Include="protocoldefine.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: protocolo\define</Filter>
+    </ClInclude>
+    <ClInclude Include="tempoon.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\tempoon</Filter>
+    </ClInclude>
+    <ClInclude Include="jewels.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\jewels</Filter>
+    </ClInclude>
+    <ClInclude Include="CGItemDropRequest.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\CGItemDropRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="Bronze.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Bronze</Filter>
+    </ClInclude>
+    <ClInclude Include="Golden.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Golden</Filter>
+    </ClInclude>
+    <ClInclude Include="Silver.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Box\Silver</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll.h">
+      <Filter>[ 1.02 ] :: Plugin\[ 1.02 ] :: Sistemas\Items\Scrolls</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\stdafx">
+      <UniqueIdentifier>{272c0a25-566d-4254-8f3d-799b6000658f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\classe_init">
+      <UniqueIdentifier>{3ba620a6-bd90-4ae9-87bf-09a68d139559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\correcao_base">
+      <UniqueIdentifier>{f074d3a5-0278-49de-ac7d-74c776119c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocolo">
+      <UniqueIdentifier>{f625aa32-704b-413b-806f-28ccae416b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\users">
+      <UniqueIdentifier>{8cd2d728-09f3-4498-a741-59961d57858b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\definicoes">
+      <UniqueIdentifier>{fd4aad08-9e54-4d99-b7ec-b07de62435ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conexao">
+      <UniqueIdentifier>{2ea43626-619d-4da3-ae55-e16e377d2260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conexao\csql">
+      <UniqueIdentifier>{ae3ea997-095c-45f2-9004-85543784c369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conexao\crecord">
+      <UniqueIdentifier>{8871a3ab-6529-4cce-b9b5-dc9cb7837f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conexao\iniciar_csql">
+      <UniqueIdentifier>{a7822a1b-4387-4906-b49b-acf5944373c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pontos_maximo">
+      <UniqueIdentifier>{598328fe-01b6-4e2f-bfc0-4832180da4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tokenizer">
+      <UniqueIdentifier>{0db0b698-8fb6-4272-9f91-38b38b4bf77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\experiencia">
+      <UniqueIdentifier>{81a61624-f76d-4224-92d9-5b18ed82624d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bloodcastle">
+      <UniqueIdentifier>{9c8d2a80-2d47-41c1-97be-d2b3729ab58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chaoscastle">
+      <UniqueIdentifier>{3e778833-22b4-4d06-8c09-c184bb9676c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\devilsquare">
+      <UniqueIdentifier>{a4e6e0d0-159f-4649-b155-7ff7ebc267de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drops">
+      <UniqueIdentifier>{b3f556e0-a600-4175-b0dd-d35cc2871919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\npctalk">
+      <UniqueIdentifier>{22a412aa-0103-4d58-8b51-e168ef48cdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\packets">
+      <UniqueIdentifier>{48419331-45a9-4472-ba3b-0dd1bb94b0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mensagem">
+      <UniqueIdentifier>{83462a6f-9610-44db-a2c1-2936a300f031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\comandos">
+      <UniqueIdentifier>{17ffe09e-4c4a-433e-ada2-23a1d3e4ed41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\calcharacter">
+      <UniqueIdentifier>{4107b770-9a4e-411a-a975-ef9612c3706c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\interface">
+      <UniqueIdentifier>{2c5afd8d-5275-4ffc-b55a-9d5825585ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\interface\display">
+      <UniqueIdentifier>{82b3b533-f2d4-4cd0-bbce-51e75ee00259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\comandos\movecustom">
+      <UniqueIdentifier>{c4d43563-cac5-4dce-9b91-2a258b1343e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protect">
+      <UniqueIdentifier>{fecde28e-ad64-4418-91cc-5890388bc652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shop">
+      <UniqueIdentifier>{d7096cf5-c18e-496c-95da-62e16e529416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\calcharacter\CalCharacter">
+      <UniqueIdentifier>{ed2a137c-3c00-4d52-99e4-3da5e15683d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocolo\gsclient">
+      <UniqueIdentifier>{4fd4bb44-fa02-4252-9b55-142da911da77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocolo\dsprotocol">
+      <UniqueIdentifier>{5048e59e-949f-4a10-b6e9-49b898531146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wings">
+      <UniqueIdentifier>{d76eb591-1e05-4325-8f9e-0c6b5c54cf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protocolo\protocol">
+      <UniqueIdentifier>{a3eab356-4411-4935-b7f1-4b19724b7575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\comandos\reset">
+      <UniqueIdentifier>{759278f7-7cc1-4a6c-8b18-5e7f4af7b318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\map">
+      <UniqueIdentifier>{ac89b1a1-e9fe-4c8f-bf21-a24abddf58d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\interface\Version">
+      <UniqueIdentifier>{be053796-6a49-4ab6-8db5-51c347ebb654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\comandos\comandos">
+      <UniqueIdentifier>{00ea221e-5fe7-4f4b-85c5-2f4dc757dd06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item">
+      <UniqueIdentifier>{ffad1ab5-e891-417c-9d70-63eea7e06db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\jewels">
+      <UniqueIdentifier>{62d4c79d-750b-4208-afe9-98f614421cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\scroll">
+      <UniqueIdentifier>{87adc99a-20c9-4b53-a806-03444360dded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\Box">
+      <UniqueIdentifier>{242e488e-8c4c-40a5-800d-71be5b17f2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\Box\Bronze">
+      <UniqueIdentifier>{4c4c701a-e41b-4c61-8377-e3eac9589a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\Box\Silver">
+      <UniqueIdentifier>{bf637ddb-422a-4d86-96fe-2c5d1ad9bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\Box\Golden">
+      <UniqueIdentifier>{b5e8f7ac-9132-403c-b2fc-ea0e9f3e59a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\item\Box\function">
+      <UniqueIdentifier>{21f57ea6-dec4-4762-b582-b0204fe62656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\calcharacter\ObjAttack">
+      <UniqueIdentifier>{893886dd-2178-4613-92fe-3e6ca8331737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllinit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classe_init.cpp">
+      <Filter>Header Files\classe_init</Filter>
+    </ClCompile>
+    <ClCompile Include="correcao_base.cpp">
+      <Filter>Header Files\correcao_base</Filter>
+    </ClCompile>
+    <ClCompile Include="users.cpp">
+      <Filter>Header Files\users</Filter>
+    </ClCompile>
+    <ClCompile Include="definicoes.cpp">
+      <Filter>Header Files\definicoes</Filter>
+    </ClCompile>
+    <ClCompile Include="csql.cpp">
+      <Filter>Header Files\conexao\csql</Filter>
+    </ClCompile>
+    <ClCompile Include="crecord.cpp">
+      <Filter>Header Files\conexao\crecord</Filter>
+    </ClCompile>
+    <ClCompile Include="iniciar_csql.cpp">
+      <Filter>Header Files\conexao\iniciar_csql</Filter>
+    </ClCompile>
+    <ClCompile Include="pontos_maximo.cpp">
+      <Filter>Header Files\pontos_maximo</Filter>
+    </ClCompile>
+    <ClCompile Include="experiencia.cpp">
+      <Filter>Header Files\experiencia</Filter>
+    </ClCompile>
+    <ClCompile Include="bloodcastle.cpp">
+      <Filter>Header Files\bloodcastle</Filter>
+    </ClCompile>
+    <ClCompile Include="chaoscastle.cpp">
+      <Filter>Header Files\chaoscastle</Filter>
+    </ClCompile>
+    <ClCompile Include="devilsquare.cpp">
+      <Filter>Header Files\devilsquare</Filter>
+    </ClCompile>
+    <ClCompile Include="drops.cpp">
+      <Filter>Header Files\drops</Filter>
+    </ClCompile>
+    <ClCompile Include="reset.cpp">
+      <Filter>Header Files\comandos\reset</Filter>
+    </ClCompile>
+    <ClCompile Include="mensagem.cpp">
+      <Filter>Header Files\mensagem</Filter>
+    </ClCompile>
+    <ClCompile Include="npctalk.cpp">
+      <Filter>Header Files\npctalk</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Header Files\interface\display</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>Header Files\comandos\movecustom</Filter>
+    </ClCompile>
+    <ClCompile Include="protect.cpp">
+      <Filter>Header Files\protect</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Header Files\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="calcharacter.cpp">
+      <Filter>Header Files\calcharacter\CalCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="gsclient.cpp">
+      <Filter>Header Files\protocolo\gsclient</Filter>
+    </ClCompile>
+    <ClCompile Include="dsprotocol.cpp">
+      <Filter>Header Files\protocolo\dsprotocol</Filter>
+    </ClCompile>
+    <ClCompile Include="wings.cpp">
+      <Filter>Header Files\wings</Filter>
+    </ClCompile>
+    <ClCompile Include="protocolo.cpp">
+      <Filter>Header Files\protocolo\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Header Files\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Header Files\interface\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="comandos.cpp">
+      <Filter>Header Files\comandos\comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="jewels.cpp">
+      <Filter>Header Files\item\jewels</Filter>
+    </ClCompile>
+    <ClCompile Include="scroll.cpp">
+      <Filter>Header Files\item\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="packets.cpp">
+      <Filter>Header Files\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Header Files\item\Box\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Bronze.cpp">
+      <Filter>Header Files\item\Box\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Golden.cpp">
+      <Filter>Header Files\item\Box\Golden</Filter>
+    </ClCompile>
+    <ClCompile Include="Silver.cpp">
+      <Filter>Header Files\item\Box\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttack.cpp">
+      <Filter>Header Files\calcharacter\ObjAttack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="classe_init.h">
+      <Filter>Header Files\classe_init</Filter>
+    </ClInclude>
+    <ClInclude Include="users.h">
+      <Filter>Header Files\users</Filter>
+    </ClInclude>
+    <ClInclude Include="definicoes.h">
+      <Filter>Header Files\definicoes</Filter>
+    </ClInclude>
+    <ClInclude Include="csql.h">
+      <Filter>Header Files\conexao\csql</Filter>
+    </ClInclude>
+    <ClInclude Include="crecord.h">
+      <Filter>Header Files\conexao\crecord</Filter>
+    </ClInclude>
+    <ClInclude Include="iniciar_csql.h">
+      <Filter>Header Files\conexao\iniciar_csql</Filter>
+    </ClInclude>
+    <ClInclude Include="pontos_maximo.h">
+      <Filter>Header Files\pontos_maximo</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>Header Files\tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="experiencia.h">
+      <Filter>Header Files\experiencia</Filter>
+    </ClInclude>
+    <ClInclude Include="bloodcastle.h">
+      <Filter>Header Files\bloodcastle</Filter>
+    </ClInclude>
+    <ClInclude Include="chaoscastle.h">
+      <Filter>Header Files\chaoscastle</Filter>
+    </ClInclude>
+    <ClInclude Include="devilsquare.h">
+      <Filter>Header Files\devilsquare</Filter>
+    </ClInclude>
+    <ClInclude Include="drops.h">
+      <Filter>Header Files\drops</Filter>
+    </ClInclude>
+    <ClInclude Include="npctalk.h">
+      <Filter>Header Files\npctalk</Filter>
+    </ClInclude>
+    <ClInclude Include="reset.h">
+      <Filter>Header Files\comandos\reset</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>Header Files\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="mensagem.h">
+      <Filter>Header Files\mensagem</Filter>
+    </ClInclude>
+    <ClInclude Include="correcao_base.h">
+      <Filter>Header Files\correcao_base</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files\interface\display</Filter>
+    </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>Header Files\comandos\movecustom</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.h">
+      <Filter>Header Files\protect</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>Header Files\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="calcharacter.h">
+      <Filter>Header Files\calcharacter\CalCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="gsclient.h">
+      <Filter>Header Files\protocolo\gsclient</Filter>
+    </ClInclude>
+    <ClInclude Include="dsprotocol.h">
+      <Filter>Header Files\protocolo\dsprotocol</Filter>
+    </ClInclude>
+    <ClInclude Include="wings.h">
+      <Filter>Header Files\wings</Filter>
+    </ClInclude>
+    <ClInclude Include="protocolo.h">
+      <Filter>Header Files\protocolo\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Header Files\protocolo\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files\map</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files\interface\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="comandos.h">
+      <Filter>Header Files\comandos\comandos</Filter>
+    </ClInclude>
+    <ClInclude Include="jewels.h">
+      <Filter>Header Files\item\jewels</Filter>
+    </ClInclude>
+    <ClInclude Include="scroll.h">
+      <Filter>Header Files\item\scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\item\Box\function</Filter>
+    </ClInclude>
+    <ClInclude Include="Bronze.h">
+      <Filter>Header Files\item\Box\Bronze</Filter>
+    </ClInclude>
+    <ClInclude Include="Golden.h">
+      <Filter>Header Files\item\Box\Golden</Filter>
+    </ClInclude>
+    <ClInclude Include="Silver.h">
+      <Filter>Header Files\item\Box\Silver</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttack.h">
+      <Filter>Header Files\calcharacter\ObjAttack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿  camera.cpp
+  definitions.cpp
+  EffectManager.cpp
+  encrypt.cpp
+  Fix.cpp
+  Font.cpp
+  Fruits.cpp
+  functions.cpp
+  Glow.cpp
+  hacker.cpp
+  HealthBar.cpp
+  item.cpp
+  ItemManager.cpp
+  main.cpp
+  Map.cpp
+  MathLib.cpp
+  MemScript.cpp
+  message.cpp
+  MiniMap.cpp
+  Monster.cpp
+  Compiling...
+  points.cpp
+  protocol.cpp
+  Smoke.cpp
+  texture.cpp
+  Wings.cpp
+     Creating library D:\thoung\1.02c\Main\Ex201\Main.lib and object D:\thoung\1.02c\Main\Ex201\Main.exp
+  Generating code
+  Finished generating code
+  DLLstart.vcxproj -> D:\thoung\1.02c\Main\Ex201\Main.dll

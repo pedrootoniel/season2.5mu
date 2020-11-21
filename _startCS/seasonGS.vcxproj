@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ENG|Win32">
+      <Configuration>ENG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="JPN|Win32">
+      <Configuration>JPN</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="PHI|Win32">
+      <Configuration>PHI</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88C4F6CE-27ED-4417-8E47-26D693428236}</ProjectGuid>
+    <RootNamespace>seasonGS</RootNamespace>
+    <ProjectName>_start</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ENG|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ENG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\compilada\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ENG|Win32'">
+    <OutDir>.\compilada\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ENG|Win32'">
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>Prompt</ErrorReporting>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>.\compilada\_start.dll</OutputFile>
+      <SubSystem>Windows</SubSystem>
+      <HeapReserveSize>0</HeapReserveSize>
+      <HeapCommitSize>0</HeapCommitSize>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ENG|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDLL;ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ErrorReporting>Prompt</ErrorReporting>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>.\compilada\_start.dll</OutputFile>
+      <SubSystem>Windows</SubSystem>
+      <HeapReserveSize>0</HeapReserveSize>
+      <HeapCommitSize>0</HeapCommitSize>
+      <StackReserveSize>0</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <LinkErrorReporting>PromptImmediately</LinkErrorReporting>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='JPN|Win32'">
+    <ClCompile>
+      <UndefinePreprocessorDefinitions>_WINDLL;JPN;%(PreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PHI|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_WINDLL;PHI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bloodcastle.cpp" />
+    <ClCompile Include="box.cpp" />
+    <ClCompile Include="Bronze.cpp" />
+    <ClCompile Include="calcharacter.cpp" />
+    <ClCompile Include="chaoscastle.cpp" />
+    <ClCompile Include="classe_init.cpp" />
+    <ClCompile Include="comandos.cpp" />
+    <ClCompile Include="correcao_base.cpp" />
+    <ClCompile Include="crecord.cpp" />
+    <ClCompile Include="csql.cpp" />
+    <ClCompile Include="definicoes.cpp" />
+    <ClCompile Include="devilsquare.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="dllinit.cpp" />
+    <ClCompile Include="drops.cpp" />
+    <ClCompile Include="dsprotocol.cpp" />
+    <ClCompile Include="experiencia.cpp" />
+    <ClCompile Include="Golden.cpp" />
+    <ClCompile Include="gsclient.cpp" />
+    <ClCompile Include="iniciar_csql.cpp" />
+    <ClCompile Include="jewels.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="mensagem.cpp" />
+    <ClCompile Include="move.cpp" />
+    <ClCompile Include="npctalk.cpp" />
+    <ClCompile Include="ObjAttack.cpp" />
+    <ClCompile Include="packets.cpp" />
+    <ClCompile Include="pontos_maximo.cpp" />
+    <ClCompile Include="protect.cpp" />
+    <ClCompile Include="protocolo.cpp" />
+    <ClCompile Include="reset.cpp" />
+    <ClCompile Include="scroll.cpp" />
+    <ClCompile Include="shop.cpp" />
+    <ClCompile Include="Silver.cpp" />
+    <ClCompile Include="users.cpp" />
+    <ClCompile Include="Version.cpp" />
+    <ClCompile Include="wings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bloodcastle.h" />
+    <ClInclude Include="box.h" />
+    <ClInclude Include="Bronze.h" />
+    <ClInclude Include="calcharacter.h" />
+    <ClInclude Include="chaoscastle.h" />
+    <ClInclude Include="classe_init.h" />
+    <ClInclude Include="comandos.h" />
+    <ClInclude Include="correcao_base.h" />
+    <ClInclude Include="crecord.h" />
+    <ClInclude Include="csql.h" />
+    <ClInclude Include="definicoes.h" />
+    <ClInclude Include="devilsquare.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="drops.h" />
+    <ClInclude Include="dsprotocol.h" />
+    <ClInclude Include="experiencia.h" />
+    <ClInclude Include="Golden.h" />
+    <ClInclude Include="gsclient.h" />
+    <ClInclude Include="iniciar_csql.h" />
+    <ClInclude Include="jewels.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="mensagem.h" />
+    <ClInclude Include="move.h" />
+    <ClInclude Include="npctalk.h" />
+    <ClInclude Include="ObjAttack.h" />
+    <ClInclude Include="packets.h" />
+    <ClInclude Include="pontos_maximo.h" />
+    <ClInclude Include="protect.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="protocolo.h" />
+    <ClInclude Include="reset.h" />
+    <ClInclude Include="scroll.h" />
+    <ClInclude Include="shop.h" />
+    <ClInclude Include="Silver.h" />
+    <ClInclude Include="tokenizer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="users.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="wings.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main\Customs">
+      <UniqueIdentifier>{ef1cde94-5259-43f0-9fbb-4214750363be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item">
+      <UniqueIdentifier>{f2a09b4d-6633-417a-bd04-595376890a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item\texture">
+      <UniqueIdentifier>{b2126117-3d92-48aa-9976-9d8f478c513a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\message">
+      <UniqueIdentifier>{31677daa-37b0-44b3-9934-a2a12f3d4304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\camera">
+      <UniqueIdentifier>{ef21d775-5c56-450b-a136-9625ed4c4e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\hacker">
+      <UniqueIdentifier>{f6ced44e-eb3b-4d7d-b397-de38a9032b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\protocol">
+      <UniqueIdentifier>{3bdbf917-5990-4a97-8df5-ec69f940fee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\points">
+      <UniqueIdentifier>{77b53380-b159-4cbf-b2f6-495f80d801bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\objectstruct">
+      <UniqueIdentifier>{b8aefb93-faaa-4feb-8881-f50770f3839d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Fix">
+      <UniqueIdentifier>{ec4415ef-296c-49f8-b6c2-72baa727828a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\MiniMap">
+      <UniqueIdentifier>{9cd48bb9-73ed-4446-8dc5-ab3774bd68ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Font">
+      <UniqueIdentifier>{c44cbcbd-47e6-4652-9818-3048361992d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util">
+      <UniqueIdentifier>{b1cbb361-d5db-46e6-a06a-77f12d3d418d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\tokenizer">
+      <UniqueIdentifier>{f979f635-5889-4682-8424-bdb6513daebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\packets">
+      <UniqueIdentifier>{65b60b02-ea53-44f4-800b-87dc8b99d208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\stdafx">
+      <UniqueIdentifier>{55182208-cee7-4eb3-b1d0-93e900eef56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\functions">
+      <UniqueIdentifier>{9f06cc76-8843-49e3-bc09-dfa5ce55fcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\encrypt">
+      <UniqueIdentifier>{1b6364c9-8e9a-4d85-b929-a00d05e294b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\definitions">
+      <UniqueIdentifier>{ced2c586-adbd-4f47-9a84-4fa36780bb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Customs\Glow">
+      <UniqueIdentifier>{5c0ac308-02ad-4535-8296-4eb4400f47f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Smoke">
+      <UniqueIdentifier>{2ea2ec7b-d34d-4d59-8c3b-051a8e14f253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item\Jewels">
+      <UniqueIdentifier>{5cfa3cb5-e732-4ead-a452-6f85e2694b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item\Wings">
+      <UniqueIdentifier>{b676ba2e-a509-4b05-b74d-a307134f730c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Monster">
+      <UniqueIdentifier>{2c56882c-b1b8-4d98-8986-157faa7507d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Fruits">
+      <UniqueIdentifier>{a8f91844-b56d-40d7-a835-f67d6d6c0502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\HpBar">
+      <UniqueIdentifier>{b27fbecb-60cd-4254-9f68-b0a7f6520e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\Map">
+      <UniqueIdentifier>{37e27dcc-7854-4866-bc38-dddc97f717d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item\ItemManager">
+      <UniqueIdentifier>{f4f297d1-dcde-491e-a643-dc765cb8ddcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Customs\item\Effect">
+      <UniqueIdentifier>{bbcccf02-6308-458b-bd17-f033fb71e8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\Math">
+      <UniqueIdentifier>{2df9c4fd-bc49-4745-85f2-39f008b60483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\MemScript">
+      <UniqueIdentifier>{eaaec5fe-1615-4fd8-a72c-dccd66592590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Util\Resource">
+      <UniqueIdentifier>{a4d8358d-20c5-43e7-a396-b7184da19f5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="points.cpp">
+      <Filter>Main\Customs\points</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Main\Util\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol.cpp">
+      <Filter>Main\Customs\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="definitions.cpp">
+      <Filter>Main\Util\definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Main\Customs\message</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Main\Customs\item\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Main\Customs\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>Main\Util\encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="hacker.cpp">
+      <Filter>Main\Customs\hacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix.cpp">
+      <Filter>Main\Customs\Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Main\Customs\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Main\Customs\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Main\Customs\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>Main\Customs\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Main\Customs\item\Jewels</Filter>
+    </ClCompile>
+    <ClCompile Include="Wings.cpp">
+      <Filter>Main\Customs\item\Wings</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Main\Customs\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruits.cpp">
+      <Filter>Main\Customs\Fruits</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Main\Customs\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Main\Customs\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Main\Customs\item\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Main\Customs\item\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MathLib.cpp">
+      <Filter>Main\Util\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MemScript.cpp">
+      <Filter>Main\Util\MemScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main\Util\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="points.h">
+      <Filter>Main\Customs\points</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Main\Util\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Main\Customs\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Main\Util\definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>Main\Util\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="objectstruct.h">
+      <Filter>Main\Customs\objectstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Main\Customs\message</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Main\Customs\item\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizer.h">
+      <Filter>Main\Util\tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Main\Customs\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>Main\Util\encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="hacker.h">
+      <Filter>Main\Customs\hacker</Filter>
+    </ClInclude>
+    <ClInclude Include="Fix.h">
+      <Filter>Main\Customs\Fix</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Main\Customs\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Main\Customs\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Main\Customs\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>Main\Customs\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Main\Customs\item\Jewels</Filter>
+    </ClInclude>
+    <ClInclude Include="Wings.h">
+      <Filter>Main\Customs\item\Wings</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Main\Customs\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruits.h">
+      <Filter>Main\Customs\Fruits</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Main\Customs\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Main\Customs\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Main\Customs\item\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Main\Customs\item\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib.h">
+      <Filter>Main\Util\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MemScript.h">
+      <Filter>Main\Util\MemScript</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Main\Util\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def">
+      <Filter>Plugin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

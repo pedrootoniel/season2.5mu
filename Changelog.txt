@@ -1,0 +1,161 @@
+﻿//===============================================================
+//===============================================================
+// # -Supremo Team
+// # - Projeto : Season II
+// # - Version: 1.00.18 PREMIUM
+// # - Todos os direitos reservados © SupremoTeam 2020
+//===============================================================
+//-- Protocolo
+//===============================================================
+// # - Protocolo ENG
+//===============================================================
+// # - Main 1.02c
+//===============================================================
+//-- Customizações
+//===============================================================
+// # - Mensagem de boas vindas.
+// # - Sistema de checksum.
+// # - Buff de defesa da elf.
+// # - Buff de attack da elf.
+// # - Rate das joias.
+// # - Deletar char e guild sem ID.
+// # - Porta UDP.
+// # - Tempo dos items no chão.
+// # - Chaos castle minimo de players.
+// # - Membros na guild para formar aliança.
+// # - Mix, items, wings.
+// # - Mana shield.
+// # - Great fortitude.
+// # - Elf soldier level.
+// # - Elf soldier attack.
+// # - Elf soldier defesa.
+// # - Experiencia em party.
+// # - Drops de items.
+// # - Level das skills.
+// # - Trade em items com harmony.
+// # - Drops de zen.
+// # - Balanço do pvp.
+// # - Sistema de controle de game masters.
+// # - Sistema de moves customs
+// # - Shop Excellent
+// # - Bonus por tempo Online
+//===============================================================
+//
+//===============================================================
+//-- Sistema de Crystal Customs.
+//===============================================================
+// # - Crystal Of Mistery 	- Torna o seu Item Excellente.
+// # - Crystal Of Love		- Aprimova o Level do seu Item para +13.
+// # - Crystal Of Happyness	- Torna o seu Item Ancient.
+// # - Crystal Of Sadness	- Adiciona Luck ao seu Item.
+// # - Crystal Of Faith		- Adiciona SKill ao seu Item.
+// # - Crystal Of Hate		- Adiciona Option+16 ao seu Item.
+// # - Crystal Of Despair	- Aprimora seu Item em 1 Level +14/+15
+// # - Crystal Of Common	- Remove todos os Options Harmony
+// # - Crystal Of Remove	- Remove o Option Ancient
+// # - Crystal Of Cash		- Premia o Jogador com Cash
+// # - Crystal Of Gold		- Premia o Jogador com Gold
+// # - Crystal Of Reset		- Premia o Jogador com Reset
+// # - Crystal Of Return	- Retorna o seu item em 1 Level
+// # - Crystal Of Event		- Transfere o Jogador para uma area exclusiva com Drop e XP Especiais
+//===============================================================
+//
+//===============================================================
+//-- Sistema de Box Customs.
+//===============================================================
+// # - Bronze Box			- Dropa Item Excelente +13
+// # - Silver Box			- Dropa Item Semi-Full +13
+// # - Golden Box			- Dropa Item Full +15
+//===============================================================
+//
+//===============================================================
+//-- Sistema de experiencia vip.
+//===============================================================
+// # - Drops do blood castle podendo dropar quantos items quizer.
+// # - Drops do chaos castle podendo dropar quantos items quizer.
+// # - Drops do devil square podendo dropar quantos items quizer.
+// # - Sistema de drops custom.
+// # - Sistema de controle de status.
+// # - Configuração de todas as mensagens.
+// # - Sistema de reset com opções de acumulativo, pontuativo. e tabelado
+// # - Sistema de comandos: NÃO RELOGAM
+//===============================================================
+//
+//===============================================================
+//-- Correções:
+//===============================================================
+// # - /zen requerido dinheiro fixado.
+// # - Sistema de calcharacter (configuração das defesas e ataques dos personagem) adicionado.
+// # - Sistema anti acumulo de conexões no sql (muitas conexões simutaneas causavam o travamento).
+// # - Item + 15 fixado.
+//===============================================================
+//
+//===============================================================
+//-- Invasões
+//===============================================================
+// # - Invasão de White Wizard 					
+// # - Golden Dragon Invasion 				
+// # - Dragon Invasion	 				
+//===============================================================
+//
+//===============================================================
+//-- Eventos
+//===============================================================
+// # - Devil Square 	
+// # - Blood Castle
+// # - Chaos Castle
+// # - Kalima
+// # - Battle Soccer
+// # - Loren Deep
+// # - Evento Crywolf
+// # - Castle Siege
+// # - Kantru Event
+// # - Drop Event
+//===============================================================
+//
+//===============================================================
+//-- Lista de Comandos de GameMaster
+//===============================================================
+// # - /!
+// # - /reload
+// # - /drop
+// # - /skin
+// # - /gmove
+//===============================================================
+//
+//===============================================================
+//-- Lista de Comandos de Jogadores
+//===============================================================
+// # - /post
+// # - /add
+// # - /readd
+// # - /zen
+// # - /pkclear
+// # - /sm
+// # - /bk
+// # - /mg
+// # - /dl
+// # - /me
+// # - /limparinv
+// # - /reset
+// # - /autoreset
+// # - /bau
+// # - /classe
+// # - /infor
+// # - /open
+//===============================================================
+//
+//===============================================================
+//-- Cliente Custom
+//===============================================================
+// # - HPBar
+// # - Camera 3D
+// # - Smoker Effect	
+// # - Fog Effect
+// # - Glow Effect
+// # - Item Effect
+// # - Main sem Recuo
+// # - Wings Custons
+// # - Agilidade Fix 32k
+// # - Traduzido para Portugues Brasil
+//===============================================================
